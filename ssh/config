@@ -1,3 +1,15 @@
+# RSA key for ancotel.gr
+Host ancotel
+    HostName www.ancotel.gr
+    User anag
+    IdentityFile ~/.ssh/ancotel.key
 
-AddKeysToAgent ask
+# RSA key for samos.com.gr
+Host samos
+    HostName www.samos.com.gr
+    User anag
+    IdentityFile ~/.ssh/samos.key
+
+    
+
 
