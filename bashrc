@@ -8,11 +8,6 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-# start ssh agent
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    ssh-agent > ~/.ssh-agent-thing
-fi
-if [[ "$SSH_AGENT_PID" == ** ]]; then
-    eval "$(<~/.ssh-agent-thing)"
-fi
+# start Keychain
+eval $(keychain --eval --quiet --confhost ancotel.key samos.key id_rsa)
 
