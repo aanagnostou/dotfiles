@@ -1,13 +1,13 @@
 # RSA key for ancotel.gr
 Host ancotel
     HostName www.ancotel.gr
-    User anag
+    User ancotel
     IdentityFile ~/.ssh/ancotel.key
 
 # RSA key for samos.com.gr
 Host samos
     HostName www.samos.com.gr
-    User anag
+    User samos
     IdentityFile ~/.ssh/samos.key
 
     
