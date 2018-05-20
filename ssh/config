@@ -10,6 +10,11 @@ Host samos
     User samos
     IdentityFile ~/.ssh/samos.key
 
+# ED25519 key for pim.ancotel.gr
+Host zeus
+    HostName pim.ancotel.gr
+    User anag
+    IdentityFile ~/.ssh/zeus_ed25519
     
 
 
