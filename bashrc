@@ -9,5 +9,5 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 # start Keychain
-eval $(keychain --eval --quiet --confhost ancotel.key samos.key id_rsa)
+eval $(keychain --eval --quiet --confhost ancotel.key samos.key id_rsa zeus_ed25519)
 
