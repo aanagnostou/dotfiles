@@ -42,6 +42,9 @@ URxvt.matcher.button: 1
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 
+!! Solarized theme
+!! Common
+
 !! COLORS
 
 *foreground:      #839496
